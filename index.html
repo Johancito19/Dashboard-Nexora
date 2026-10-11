@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es" class="theme-light" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXORA SOLUTIONS | Panel de Control</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div id="navbarMenu" class="is-flex is-flex-wrap-wrap" style="width: 100%;">
+                <div class="is-flex is-flex-wrap-wrap">
+                    <a class="navbar-item nav-link-active" href="#" data-vista="panel">Panel de Control</a>
+                    <a class="navbar-item nav-link-item" href="#" data-vista="soon">Transacciones</a>
+                    <a class="navbar-item nav-link-item" href="#" data-vista="soon">Inventario</a>
+                    <a class="navbar-item nav-link-item" href="#" data-vista="soon">Reportes</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="section" id="vista-panel">
+        <div class="container">
+
+            <div class="columns is-multiline mb-4">
+
+                <div class="column is-12-mobile is-6-tablet is-3-desktop">
+                    <div class="card kpi-card">
+                        <div class="card-content">
+                            <div class="is-flex is-align-items-center gap-3">
+                                <div class="icon-circle teal-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" aria-hidden="true">
+                                        <circle cx="12" cy="12" r="9" />
+                                        <path
+                                            d="M12 7v10M9.5 9.5c0-1.4 1.1-2.5 2.5-2.5s2.5 1 2.5 2.1c0 2.9-5 1.4-5 4.3 0 1.1 1.1 2.1 2.5 2.1s2.5-1.1 2.5-2.5"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="kpi-label">Ingresos Totales</p>
+                                    <p class="kpi-value">$48,520</p>
+                                    <p class="trend-positive">
+                                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3" aria-hidden="true"
+                                            style="vertical-align: middle;">
+                                            <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        12.5%
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-3-desktop">
+                    <div class="card kpi-card mustard-top">
+                        <div class="card-content">
+                            <div class="is-flex is-align-items-center gap-3">
+                                <div class="icon-circle mustard-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" aria-hidden="true">
+                                        <circle cx="9" cy="21" r="1" />
+                                        <circle cx="19" cy="21" r="1" />
+                                        <path d="M2 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L22 7H6"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="kpi-label">Pedidos Totales</p>
+                                    <p class="kpi-value">342 <span
+                                            class="is-size-6 has-text-weight-normal has-text-grey">pedidos</span></p>
+                                    <p class="trend-positive">
+                                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3" aria-hidden="true"
+                                            style="vertical-align: middle;">
+                                            <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        8.7%
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-3-desktop">
+                    <div class="card kpi-card">
+                        <div class="card-content">
+                            <div class="is-flex is-align-items-center gap-3">
+                                <div class="icon-circle teal-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" aria-hidden="true">
+                                        <rect x="6" y="4" width="12" height="17" rx="1" />
+                                        <path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1" stroke-linecap="round" />
+                                        <path d="M9 11h6M9 15h6" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="kpi-label">Valor de Inventario</p>
+                                    <p class="kpi-value">$128,940</p>
+                                    <p class="trend-positive">
+                                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3" aria-hidden="true"
+                                            style="vertical-align: middle;">
+                                            <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        15.3%
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-6-tablet is-3-desktop">
+                    <div class="card kpi-card mustard-top">
+                        <div class="card-content">
+                            <div class="is-flex is-align-items-center gap-3">
+                                <div class="icon-circle mustard-icon">
+                                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" aria-hidden="true">
+                                        <circle cx="9" cy="8" r="3" />
+                                        <path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke-linecap="round" />
+                                        <circle cx="17" cy="8" r="2.5" />
+                                        <path d="M15.5 14.2c2.5.3 4.5 2.5 4.5 5.8" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="kpi-label">Clientes Activos</p>
+                                    <p class="kpi-value">89</p>
+                                    <p class="trend-negative">
+                                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="3" aria-hidden="true"
+                                            style="vertical-align: middle;">
+                                            <path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                        2.2%
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns mb-4">
+
+                <div class="column is-12-mobile is-7-desktop">
+                    <div class="card" style="height: 100%;">
+                        <div class="card-content">
+                            <div class="is-flex is-justify-content-space-between is-align-items-center mb-4">
+                                <p class="title is-5 mb-0">Resumen de Operaciones</p>
+                                <div class="select is-small">
+                                    <select>
+                                        <option>Últimos 7 Días</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="is-flex is-justify-content-center gap-5 mb-4">
+                                <span class="is-size-7"><span class="legend-box teal-box"></span>Completado</span>
+                                <span class="is-size-7"><span class="legend-box mustard-box"></span>Pendiente</span>
+                            </div>
+
+                            <div class="chart-wrapper">
+                                <div class="chart-y-axis" style="height: 220px;">
+                                    <span>0</span>
+                                    <span>20</span>
+                                    <span>40</span>
+                                    <span>60</span>
+                                    <span>80</span>
+                                    <span>100</span>
+                                    <span>120</span>
+                                </div>
+                                <div class="chart-plot">
+                                    <div class="chart-grid-line" style="bottom: 0%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 16.66%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 33.33%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 50%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 66.66%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 83.33%;"></div>
+                                    <div class="chart-grid-line" style="bottom: 100%;"></div>
+
+                                    <div class="chart-bars-area">
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 66.6%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 37.5%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 79.1%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 45%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 58.3%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 33.3%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 91.6%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 54.1%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 75%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 38.3%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 70.8%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 41.6%;"></div>
+                                        </div>
+                                        <div class="chart-bar-group">
+                                            <div class="chart-bar completed-bar" style="height: 87.5%;"></div>
+                                            <div class="chart-bar pending-bar" style="height: 50%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-x-labels">
+                                <span>11 May</span>
+                                <span>12 May</span>
+                                <span>13 May</span>
+                                <span>14 May</span>
+                                <span>15 May</span>
+                                <span>16 May</span>
+                                <span>17 May</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-12-mobile is-5-desktop">
+                    <div class="card" style="height: 100%;">
+                        <div class="card-content">
+                            <p class="title is-5 mb-4">Estado del Sistema</p>
+
+                            <div class="health-row">
+                                <span class="health-name">Base de Datos</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill" style="width: 98%;"></div>
+                                </div>
+                                <span class="health-percent">98%</span>
+                                <span class="health-status"><span class="status-dot"></span>Saludable</span>
+                            </div>
+
+                            <div class="health-row">
+                                <span class="health-name">Puerta de Enlace API</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill" style="width: 96%;"></div>
+                                </div>
+                                <span class="health-percent">96%</span>
+                                <span class="health-status"><span class="status-dot"></span>Saludable</span>
+                            </div>
+
+                            <div class="health-row">
+                                <span class="health-name">Servicio de Pedidos</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill" style="width: 99%;"></div>
+                                </div>
+                                <span class="health-percent">99%</span>
+                                <span class="health-status"><span class="status-dot"></span>Saludable</span>
+                            </div>
+
+                            <div class="health-row">
+                                <span class="health-name">Servicio de Inventario</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill" style="width: 97%;"></div>
+                                </div>
+                                <span class="health-percent">97%</span>
+                                <span class="health-status"><span class="status-dot"></span>Saludable</span>
+                            </div>
+
+                            <div class="health-row">
+                                <span class="health-name">Servicio de Pagos</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill warning-fill" style="width: 85%;"></div>
+                                </div>
+                                <span class="health-percent">85%</span>
+                                <span class="health-status"><span
+                                        class="status-dot warning-dot"></span>Advertencia</span>
+                            </div>
+
+                            <div class="health-row mb-0">
+                                <span class="health-name">Servicio de Notificaciones</span>
+                                <div class="health-bar-bg">
+                                    <div class="health-bar-fill" style="width: 93%;"></div>
+                                </div>
+                                <span class="health-percent">93%</span>
+                                <span class="health-status"><span class="status-dot"></span>Saludable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <p class="title is-5 mb-4">Transacciones Recientes</p>
+                    <div class="table-container-custom">
+                        <table class="table is-fullwidth is-striped is-hoverable">
+                            <thead class="teal-header">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Operación</th>
+                                    <th>Cliente</th>
+                                    <th>Estado</th>
+                                    <th>Monto</th>
+                                    <th>Fecha y Hora</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>TXN-10023</td>
+                                    <td>Pedido Creado</td>
+                                    <td>Acme Corporation</td>
+                                    <td><span class="status-tag completed-tag">Completado</span></td>
+                                    <td class="amount-cell">$12,450.00</td>
+                                    <td>17 de mayo de 2025, 10:24 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>TXN-10022</td>
+                                    <td>Pago Recibido</td>
+                                    <td>Globex Industries</td>
+                                    <td><span class="status-tag completed-tag">Completado</span></td>
+                                    <td class="amount-cell">$8,750.00</td>
+                                    <td>17 de mayo de 2025, 09:58 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>TXN-10021</td>
+                                    <td>Actualización de Inventario</td>
+                                    <td>Stark Enterprises</td>
+                                    <td><span class="status-tag completed-tag">Completado</span></td>
+                                    <td class="amount-cell">$3,200.00</td>
+                                    <td>17 de mayo de 2025, 09:31 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>TXN-10020</td>
+                                    <td>Pedido Creado</td>
+                                    <td>Wayne Industries</td>
+                                    <td><span class="status-tag pending-tag">Pendiente</span></td>
+                                    <td class="amount-cell">$5,600.00</td>
+                                    <td>17 de mayo de 2025, 09:12 AM</td>
+                                </tr>
+                                <tr>
+                                    <td>TXN-10019</td>
+                                    <td>Pago Fallido</td>
+                                    <td>Oscorp Technologies</td>
+                                    <td><span class="status-tag failed-tag">Fallido</span></td>
+                                    <td class="amount-cell">$2,150.00</td>
+                                    <td>17 de mayo de 2025, 08:47 AM</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section" id="vista-soon" hidden>
+        <div class="container has-text-centered">
+            <svg viewBox="0 0 300 250" width="300" role="img" aria-label="Robot triste">
+                <path
+                    d="M40 190C15 130 70 105 105 82C140 60 150 20 192 26C236 32 250 85 266 122C284 162 282 192 250 196Z"
+                    fill="#E1F2F3" />
+                <circle cx="48" cy="82" r="9" fill="#0E6A70" opacity=".15" />
+                <circle cx="268" cy="102" r="6" fill="#0E6A70" opacity=".15" />
+                <path d="M236 50v16M228 58h16" stroke="#F4B63E" stroke-width="3" stroke-linecap="round" />
+                <path d="M58 142v14M51 149h14" stroke="#0E6A70" stroke-width="3" stroke-linecap="round" />
+                <path d="M150 78V58" stroke="#0E6A70" stroke-width="4" stroke-linecap="round" />
+                <circle cx="150" cy="50" r="8" fill="#F4B63E" stroke="#0E6A70" stroke-width="3" />
+                <rect x="92" y="102" width="13" height="32" rx="6" fill="#0E6A70" />
+                <rect x="195" y="102" width="13" height="32" rx="6" fill="#0E6A70" />
+                <rect x="100" y="78" width="100" height="82" rx="38" fill="#fff" stroke="#0E6A70" stroke-width="4" />
+                <rect x="113" y="95" width="74" height="46" rx="20" fill="#0E6A70" />
+                <circle cx="134" cy="115" r="5" fill="#fff" />
+                <circle cx="166" cy="115" r="5" fill="#fff" />
+                <path d="M142 131q8-7 16 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" />
+                <path d="M106 222c0-34 16-54 44-54s44 20 44 54z" fill="#fff" stroke="#0E6A70" stroke-width="4" />
+                <circle cx="150" cy="198" r="12" fill="#F4B63E" stroke="#0E6A70" stroke-width="4" />
+                <path d="M188 214q26-6 28-42" stroke="#0E6A70" stroke-width="20" stroke-linecap="round" fill="none" />
+                <path d="M188 214q26-6 28-42" stroke="#fff" stroke-width="12" stroke-linecap="round" fill="none" />
+                <ellipse cx="226" cy="166" rx="15" ry="8" transform="rotate(-25 226 166)" fill="#fff" stroke="#0E6A70"
+                    stroke-width="4" />
+                <ellipse cx="112" cy="214" rx="19" ry="11" fill="#fff" stroke="#0E6A70" stroke-width="4" />
+                <path d="M88 226h126" stroke="#0E6A70" stroke-width="3" opacity=".25" stroke-linecap="round" />
+            </svg>
+            <h2 class="title is-3 soon-title mt-4">Lo siento, este apartado<br>no está disponible todavía...</h2>
+            <div class="soon-dashes"><span></span><span></span><span></span></div>
+        </div>
+    </section>
+
+    <footer class="footer footer-custom">
+        <div class="content has-text-centered">
+            <p>© 2025 Nexora Solutions. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const panel = document.getElementById('vista-panel');
+        const soon = document.getElementById('vista-soon');
+        const links = document.querySelectorAll('[data-vista]');
+        links.forEach(link => link.addEventListener('click', e => {
+            e.preventDefault();
+            const enPanel = link.dataset.vista === 'panel';
+            panel.hidden = !enPanel;
+            soon.hidden = enPanel;
+            links.forEach(l => {
+                l.classList.toggle('nav-link-active', l === link);
+                l.classList.toggle('nav-link-item', l !== link);
+            });
+        }));
+    </script>
+</body>
+
+</html>
